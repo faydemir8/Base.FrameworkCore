@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Objects\Classes\" />
+    <Folder Include="Objects\Enums\" />
+    <Folder Include="Objects\Options\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
+  </ItemGroup>
+
+</Project>
