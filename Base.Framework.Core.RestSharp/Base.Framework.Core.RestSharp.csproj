@@ -2,15 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.1.0</Version>
+    <Authors>faruk aydemir</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="RestSharp" Version="106.6.10" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Base.Framework.Core.Common\Base.Framework.Core.Common.csproj" />
   </ItemGroup>
 
 </Project>
