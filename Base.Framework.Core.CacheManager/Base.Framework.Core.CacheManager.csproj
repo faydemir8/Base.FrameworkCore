@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Version>2.1.0</Version>
+    <Version>2.1.1</Version>
     <Authors>faruk aydemir</Authors>
     <Company>faruk aydemir</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Redis Cache Manager For .Net Core 2.1</Description>
+    <Copyright>faruk aydemir</Copyright>
+    <PackageProjectUrl>https://github.com/faydemir8/Base.FrameworkCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/faydemir8/Base.FrameworkCore</RepositoryUrl>
+    <PackageTags>.net core, redis, Cache Manager</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
